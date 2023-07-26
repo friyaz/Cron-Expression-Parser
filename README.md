@@ -1,14 +1,14 @@
 # Cron Expression Parser
 
-This project implements a CLI using python to parse cron expressions. 
+This project implements a CLI using Python to parse cron expressions. 
 
 Supported features:
 - asterisk (`*`)
 - comma separated lists (ex: `1,2,3`)
 - time intervals using slashes (ex: `*/10`)
-- ranges using hythens (ex: `3-5`)
-- capital abbrevations for months (ex: `JAN-MAR`)
-- capital abbrevations for weekdays (ex: `MON-WED`)
+- ranges using hyphens (ex: `3-5`)
+- capital abbreviations for months (ex: `JAN-MAR`)
+- capital abbreviations for weekdays (ex: `MON-WED`)
 
 Unsupported features or features for future development:
 - [Non standard characters](https://en.wikipedia.org/wiki/Cron#Non-standard_characters)
@@ -22,7 +22,7 @@ Your system should have python with version >= 3.70.
 
 ## Running the parser
 
-Run the following command to parse cron expresion:
+Run the following command to parse cron expression:
 
 ```
 python cron_parser.py "CRON_EXPRESSION"
@@ -47,10 +47,10 @@ command       /usr/local/server.sh
 ```
 
 ## Running tests
-To run tests, you need to have pytest installed. 
+To run the tests, pytest needs to be installed. 
 
-Recommended way to install pytest is using poetry to avoid making changes to global python environment.
-If you don't have poetry installed, follow instructions from [here](https://python-poetry.org/docs/) to install poetry.
+The recommended way to install pytest is using poetry to avoid making changes to the global Python environment.
+If you don't have poetry installed, follow the instructions from [here](https://python-poetry.org/docs/) to install poetry.
 
 ```
 poetry shell
