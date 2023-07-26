@@ -6,7 +6,7 @@ Supported features:
 - asterisk (`*`)
 - comma separated lists (ex: `1,2,3`)
 - time intervals using slashes (ex: `*/10`)
-- ranges using hythens (ex: `-`)
+- ranges using hythens (ex: `3-5`)
 - capital abbrevations for months (ex: `JAN-MAR`)
 - capital abbrevations for weekdays (ex: `MON-WED`)
 
