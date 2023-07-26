@@ -1,4 +1,4 @@
-# Deliveroo Cron Expression Parser
+# Cron Expression Parser
 
 This project implements a CLI using python to parse cron expressions. 
 
