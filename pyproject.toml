@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cron-parser"
+version = "0.1.0"
+description = ""
+authors = ["Faisal Riyaz <faisalriyaz011@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cron_parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pytest = "^7.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
